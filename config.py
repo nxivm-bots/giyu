@@ -5,21 +5,21 @@ from logging.handlers import RotatingFileHandler
 
 
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7443423308:AAF1hRH-BZlmxa00mfN3MN92lTDKpRWyj90")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6702196447:AAHEiRWD8m9A1kxM8nIncyOmdwtXxkLzMNQ")
 API_ID = int(os.environ.get("API_ID", "29872536"))
 API_HASH = os.environ.get("API_HASH", "65e1f714a47c0879734553dc460e98d6")
 
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "1110013191"))
-DB_URL = os.environ.get("DB_URL", "mongodb+srv://kratosaurus69:kratosaurus69@cluster0.cee70.mongodb.net/")
+OWNER_ID = int(os.environ.get("OWNER_ID", "6698364560"))
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://denji3494:denji3494@cluster0.bskf1po.mongodb.net/")
 DB_NAME = os.environ.get("DB_NAME", "madflixbotz")
 
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002175827903"))
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002063132471"))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1001707354372"))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1001677928096"))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1001974662693"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002115625636"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002171604059"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002080596319"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002017820127"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002038864724"))
 
 
 FILE_AUTO_DELETE = int(os.getenv("FILE_AUTO_DELETE", "1800")) # auto delete in seconds
@@ -32,7 +32,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 try:
     ADMINS=[7085541484]
-    for x in (os.environ.get("ADMINS", "6698364560 1234567890").split()):
+    for x in (os.environ.get("ADMINS", "1110013191").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
