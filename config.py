@@ -29,7 +29,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 
 try:
-    ADMINS=[7085541484]
+    ADMINS=[1110013191]
     for x in (os.environ.get("ADMINS", "1110013191").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -68,7 +68,7 @@ FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {mention}\n\nI Can Store 
 
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(7085541484)
+ADMINS.append(6698364560)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
